@@ -1,0 +1,18 @@
+#Version 1.0.0
+#Date: Jan 14 2019 9:33am PST
+#Author: Roy Yap
+#Last Edited by: Roy Yap
+#last Updated Date Time (Approximate):  Jan 14 2019 9:58am PST
+
+#High level steps / pseudo code
+
+#use API to log into Book of face
+
+#grab the needed data to build a URL / POSTMAN / JS / PHP GET call to get the whole list of Friend ID's
+#example maybe: https://m.facebook.com/<your fb user name>/friends?unit_cursor=_AQHR8Twf9KePUllJRR6LbQJHQ0MV8fO5hltGuZfN6p0vLvuW8AEyhXZhu6foMtVDS8ysHesFk0bMjHe32tC2T1m5w&lst=718953689%3A7189265689%3A1547480545
+
+#build a do loop to silently ping / send each friend url to pretend as if you visited their profile:
+https://m.facebook.com/<your FB friend's user id>?__m_async_page__=&__cached__=&__big_pipe_on__=&m_sess=&fb_dtsg_ag=AQx0Gx-PSLIzev51la8QtsTqPebqJa5UGDW8C7t5GgXLaQ%3AAQxBgXRs-wVyKvxZc7AI0u89QVwcZD5bZ5xds6ts8lJ7_g&jazoest=27935&__dyn=1KQdAmm1gxu4U4ifDgy79pkdxu6Erz8do98nw_K1FwKxu1fxW0Oohx61rwf24o29wmU3XwIwk9EdEnw9u0Xosg7O78fEeE7icG1lw4ozHzoaUa86q3K1vK1Dxmayo&__req=10&__ajax__=AYk_HQULhy0qq8jTKHdySKsDrPpKlAzmIxqnnEWrAZR1C70beugN1MNzu6WEXNNgBj9raPoT9couxEunr5dzPYVlV2FaqlPtbgyyVBGuJQGWNw&__user=718953689
+
+
+#
